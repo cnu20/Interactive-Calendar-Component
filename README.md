@@ -27,7 +27,7 @@ A polished, interactive wall calendar component built with React. Inspired by th
 
 ## Getting Started
 
-### Option A — Create React App
+### Create React App
 
 **1. Scaffold the project**
 ```bash
@@ -51,36 +51,6 @@ export default function App() {
 **4. Run the dev server**
 ```bash
 npm start
-```
-
-Opens at: `http://localhost:3000`
-
----
-
-### Option B — Next.js
-
-**1. Scaffold the project**
-```bash
-npx create-next-app@latest wall-calendar
-cd wall-calendar
-```
-
-**2. Add the component**
-
-Add `"use client";` as the very first line of `WallCalendar.jsx`, then place it in the `components/` folder.
-
-**3. Update `app/page.jsx`**
-```jsx
-import WallCalendar from '../components/WallCalendar';
-
-export default function Page() {
-  return <WallCalendar />;
-}
-```
-
-**4. Run the dev server**
-```bash
-npm run dev
 ```
 
 Opens at: `http://localhost:3000`
